@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80A4264761EB9E22D5D34A7E /* Pods_SQLBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD50BF0269CAB76C75B2B774 /* Pods_SQLBook.framework */; };
 		BBAF739F26A2223D00BAD569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF739E26A2223D00BAD569 /* AppDelegate.swift */; };
 		BBAF73A126A2223D00BAD569 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF73A026A2223D00BAD569 /* SceneDelegate.swift */; };
 		BBAF73A326A2223D00BAD569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF73A226A2223D00BAD569 /* ContentView.swift */; };
 		BBAF73A526A2224000BAD569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAF73A426A2224000BAD569 /* Assets.xcassets */; };
 		BBAF73A826A2224000BAD569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAF73A726A2224000BAD569 /* Preview Assets.xcassets */; };
 		BBAF73AB26A2224000BAD569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAF73A926A2224000BAD569 /* LaunchScreen.storyboard */; };
+		BBAF73B726A2228B00BAD569 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF73B626A2228B00BAD569 /* Book.swift */; };
+		BBAF73BA26A222A300BAD569 /* DB_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF73B926A222A300BAD569 /* DB_Manager.swift */; };
+		BBAF73BD26A222B900BAD569 /* AddBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF73BC26A222B900BAD569 /* AddBook.swift */; };
+		BBAF73C026A2245D00BAD569 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF73BF26A2245D00BAD569 /* BookView.swift */; };
+		BBAF73C426A27DC400BAD569 /* AddWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF73C326A27DC400BAD569 /* AddWord.swift */; };
+		BBC262E826A37917000262AD /* PickDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC262E726A37917000262AD /* PickDefinition.swift */; };
+		BBC262EA26A37DCB000262AD /* SaveArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC262E926A37DCB000262AD /* SaveArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3451FA9450453875BF909AE4 /* Pods-SQLBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLBook.debug.xcconfig"; path = "Target Support Files/Pods-SQLBook/Pods-SQLBook.debug.xcconfig"; sourceTree = "<group>"; };
+		B9CA135D639DA74B6023FFC5 /* Pods-SQLBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLBook.release.xcconfig"; path = "Target Support Files/Pods-SQLBook/Pods-SQLBook.release.xcconfig"; sourceTree = "<group>"; };
 		BBAF739B26A2223D00BAD569 /* SQLBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAF739E26A2223D00BAD569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBAF73A026A2223D00BAD569 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		BBAF73A726A2224000BAD569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BBAF73AA26A2224000BAD569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBAF73AC26A2224000BAD569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAF73B626A2228B00BAD569 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		BBAF73B926A222A300BAD569 /* DB_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_Manager.swift; sourceTree = "<group>"; };
+		BBAF73BC26A222B900BAD569 /* AddBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBook.swift; sourceTree = "<group>"; };
+		BBAF73BF26A2245D00BAD569 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		BBAF73C326A27DC400BAD569 /* AddWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWord.swift; sourceTree = "<group>"; };
+		BBC262E726A37917000262AD /* PickDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDefinition.swift; sourceTree = "<group>"; };
+		BBC262E926A37DCB000262AD /* SaveArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveArray.swift; sourceTree = "<group>"; };
+		FD50BF0269CAB76C75B2B774 /* Pods_SQLBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80A4264761EB9E22D5D34A7E /* Pods_SQLBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE71BB3C79347C085F424B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD50BF0269CAB76C75B2B774 /* Pods_SQLBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4334D08E89B0FCC288A6779 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3451FA9450453875BF909AE4 /* Pods-SQLBook.debug.xcconfig */,
+				B9CA135D639DA74B6023FFC5 /* Pods-SQLBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BBAF739226A2223D00BAD569 = {
 			isa = PBXGroup;
 			children = (
 				BBAF739D26A2223D00BAD569 /* SQLBook */,
 				BBAF739C26A2223D00BAD569 /* Products */,
+				A4334D08E89B0FCC288A6779 /* Pods */,
+				1EE71BB3C79347C085F424B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +101,13 @@
 				BBAF73A926A2224000BAD569 /* LaunchScreen.storyboard */,
 				BBAF73AC26A2224000BAD569 /* Info.plist */,
 				BBAF73A626A2224000BAD569 /* Preview Content */,
+				BBAF73B626A2228B00BAD569 /* Book.swift */,
+				BBAF73B926A222A300BAD569 /* DB_Manager.swift */,
+				BBAF73BC26A222B900BAD569 /* AddBook.swift */,
+				BBAF73BF26A2245D00BAD569 /* BookView.swift */,
+				BBAF73C326A27DC400BAD569 /* AddWord.swift */,
+				BBC262E726A37917000262AD /* PickDefinition.swift */,
+				BBC262E926A37DCB000262AD /* SaveArray.swift */,
 			);
 			path = SQLBook;
 			sourceTree = "<group>";
@@ -82,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBAF73AF26A2224000BAD569 /* Build configuration list for PBXNativeTarget "SQLBook" */;
 			buildPhases = (
+				9359B06AE5F57305035D6CE7 /* [CP] Check Pods Manifest.lock */,
 				BBAF739726A2223D00BAD569 /* Sources */,
 				BBAF739826A2223D00BAD569 /* Frameworks */,
 				BBAF739926A2223D00BAD569 /* Resources */,
+				B85E9F338C2EA7816D1C7141 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,13 +187,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9359B06AE5F57305035D6CE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B85E9F338C2EA7816D1C7141 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLBook/Pods-SQLBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLBook/Pods-SQLBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLBook/Pods-SQLBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBAF739726A2223D00BAD569 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBAF73B726A2228B00BAD569 /* Book.swift in Sources */,
+				BBAF73BA26A222A300BAD569 /* DB_Manager.swift in Sources */,
+				BBAF73BD26A222B900BAD569 /* AddBook.swift in Sources */,
 				BBAF739F26A2223D00BAD569 /* AppDelegate.swift in Sources */,
 				BBAF73A126A2223D00BAD569 /* SceneDelegate.swift in Sources */,
+				BBAF73C426A27DC400BAD569 /* AddWord.swift in Sources */,
+				BBC262E826A37917000262AD /* PickDefinition.swift in Sources */,
+				BBAF73C026A2245D00BAD569 /* BookView.swift in Sources */,
+				BBC262EA26A37DCB000262AD /* SaveArray.swift in Sources */,
 				BBAF73A326A2223D00BAD569 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,11 +379,13 @@
 		};
 		BBAF73B026A2224000BAD569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3451FA9450453875BF909AE4 /* Pods-SQLBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SQLBook/Preview Content\"";
+				DEVELOPMENT_TEAM = BG69C72A85;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SQLBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,11 +401,13 @@
 		};
 		BBAF73B126A2224000BAD569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CA135D639DA74B6023FFC5 /* Pods-SQLBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SQLBook/Preview Content\"";
+				DEVELOPMENT_TEAM = BG69C72A85;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SQLBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
